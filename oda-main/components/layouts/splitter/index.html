@@ -1,0 +1,32 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<oda-tester>
+    <oda-splitter-tester></oda-splitter-tester>
+</oda-tester>
+<script type="module">
+    import '../../../oda.js';
+    import './splitter.js';
+    ODA({is: 'oda-splitter-tester',
+        template: `
+            <style>
+                :host{
+                    @apply --flex;
+                    @apply --vertical;
+                }
+            </style>
+            <div class="flex horizontal">
+                <div class="horizontal">
+                    <div class="flex">СПЛИТТЕР СПРАВА</div>
+                    <oda-splitter></oda-splitter>
+                </div>
+                <div class="flex vertical">
+                    <div class="vertical">
+                        <div class="flex">СПЛИТТЕР СНИЗУ</div>
+                        <oda-splitter align="horizontal"></oda-splitter>
+                    </div>
+                    <div class="flex"></div>
+                </div>
+            </div>
+        `
+    })
+</script>

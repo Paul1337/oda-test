@@ -1,0 +1,32 @@
+[
+    {
+        "name": "content-for-help.md",
+        "label": "Формирование оглавления",
+        "status": "ok"
+    },
+    {
+        "name": "help-for-help.md",
+        "label": "Создание справочных материалов",
+        "status": "ok"
+    },
+    {
+        "name": "alert-elements.md",
+        "label": "Элементы оповещения",
+        "status": "ok"
+    },
+    {
+        "name": "code-modifiers.md",
+        "label": "Модификаторы редактора кода",
+        "status": "ok"
+    },
+    {
+        "name": "help-for-component.md",
+        "label": "Документирование компонентов",
+        "status": "ok"
+    },
+    {
+        "name": "markdown-doc.md",
+        "label": "Справочник по формату Markdown",
+        "status": "ok"
+    }
+]

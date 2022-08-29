@@ -1,0 +1,10 @@
+[
+  {
+    "name": "calculator",
+    "label": "Калькулятор",
+    "content": {
+      "abstract": "\n~~~md\n<b>Components:</b> calculator\n~~~",
+      "link": "index.html"
+    }
+  }
+]
